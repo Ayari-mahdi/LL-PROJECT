@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "montserrat",sans-serif;
+  }
+  .contact-section{
+    background: #313840;
+    padding: 80px 0;
+    text-align: center;
+    height: 550px;
+  }
+  .contact-section2{
+    background: #313840;
+    padding: 80px 0;
+    text-align: center;
+    height:735px;
+  }
+  
+  .inner-width{
+    max-width: 650px;
+    margin: auto;
+    padding: 0 20px;
+  }
+  
+  .contact-section h1{
+    font-size: 20px;
+    color: #888;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 400;
+  }
+  .contact-section2 h1{
+    font-size: 20px;
+    color: #888;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 400;
+  }
+  
+  
+  .nom,.email,.date,.prenom,.telephone,.niveau,.adresse{
+    background: none;
+    border:none;
+    outline: none;
+    border-bottom: 1px solid;
+    color: #888;
+    padding: 10px 6px;
+    font-size: 14px;
+    margin-bottom: 40px;
+    width: 45%;
+    margin-left: 20px;
+  }
+  
+  .nom{
+    float: left;
+    width: 270px;
+  }
+  
+  .prenom{
+    float: right;
+    width: 270px;
+  }
+  .date{
+    float: left;
+    width: 270px;
+  }
+  
+  .email{
+    float: right;
+    width: 270px;
+  }
+  .niveau{
+    float: left;
+    width: 270px;
+  }
+  
+  .telephone{
+    float: right;
+    width: 270px;
+  }
+  .adresse{
+      max-width: 100%;
+      min-width: 100%;
+  }
+ 
+  .contact-section a,button{
+    background: none;
+    color: #70a1ff;
+    border: 1px solid #70a1ff;
+    padding: 12px 40px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: 0.4s linear;
+    cursor: pointer;
+    text-decoration:none;
+  }
+ 
+  .contact-section a:hover,button:hover{
+    background: #70a1ff;
+    color: #fff;
+  }
+ 
+
+
+
+  @media screen and (max-width:650px){
+    .name,.email{
+      width: 100%;
+    }
+  }
+ 
+
+  .bt0{
+      float:left;
+      margin-left: 40px;
+}
+
+.w1{
+    margin-top: 10px;
+    float: right;
+
+}
