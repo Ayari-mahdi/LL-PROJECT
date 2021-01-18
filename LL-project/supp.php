@@ -11,7 +11,7 @@ session_start();
    $grade = $_POST['niveau'];
    $date = $_POST['date'];
     
-   $sql = "DELETE from enseignant where  WHERE nom='$nom' and date='$date'" ;
+   $sql = "DELETE from enseignant  WHERE nom='$nom' and date='$date'" ;
     $result = mysqli_query($conn,$sql);  
        echo mysql_error ();   
        if ($result)

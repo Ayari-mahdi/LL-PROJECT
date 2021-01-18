@@ -2,7 +2,7 @@
 include "connect_to_db.php";
 session_start();
    $nom = $_POST['nom'];
-   $pernom = $_POST['prenom'];
+   $prenom = $_POST['prenom'];
    $adresse = $_POST['adresse'];
    $telephone = $_POST['telephone'];
    $email = $_POST['email'];
